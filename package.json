@@ -1,7 +1,7 @@
 {
   "name": "pin-url",
   "main": "./lib/pin-url",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Pin useful URLs to your atom status bar",
   "keywords": [
     "pin",
