@@ -1,7 +1,7 @@
 {
   "name": "pin-url",
   "main": "./lib/pin-url",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Pin useful URLs to your atom status bar",
   "keywords": [
     "pin",
@@ -21,7 +21,6 @@
     "url": "https://github.com/NathanShi/pin-url-to-atom/issues"
   },
   "homepage": "https://github.com/NathanShi/atom-hyperlinks#readme",
-  "repository": "https://github.com/atom/pin-url",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
