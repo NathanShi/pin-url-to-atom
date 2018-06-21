@@ -21,9 +21,6 @@
     "url": "https://github.com/NathanShi/pin-url-to-atom/issues"
   },
   "homepage": "https://github.com/NathanShi/atom-hyperlinks#readme",
-  "activationCommands": {
-    "atom-workspace": "pin-url:showConfig"
-  },
   "repository": "https://github.com/atom/pin-url",
   "license": "MIT",
   "engines": {
