@@ -14,5 +14,5 @@ Go to package manage view to edit configurations.
 
 ## Next steps
 
-### v0.2.0
+### v0.4.0
 - Add icon options.
