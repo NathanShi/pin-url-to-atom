@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Pin-Urls",
+        "command": "pin-url:showConfig"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "pin-url",
+          "submenu": [
+            {
+              "label": "show configuration",
+              "command": "pin-url:showConfig"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

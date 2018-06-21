@@ -1,0 +1,42 @@
+{
+  "name": "pin-url",
+  "main": "./lib/pin-url",
+  "version": "0.1.0",
+  "description": "Pin useful URLs to your atom status bar",
+  "keywords": [
+    "pin",
+    "URL",
+    "links",
+    "status bar"
+  ],
+  "author": {
+    "name": "Yibing Shi",
+    "email": "yibingshi94@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanShi/pin-url-to-atom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NathanShi/pin-url-to-atom/issues"
+  },
+  "homepage": "https://github.com/NathanShi/atom-hyperlinks#readme",
+  "activationCommands": {
+    "atom-workspace": "pin-url:showConfig"
+  },
+  "repository": "https://github.com/atom/pin-url",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "event-kit": "^2.5.0"
+  }
+}
