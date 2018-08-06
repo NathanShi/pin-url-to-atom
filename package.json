@@ -33,6 +33,7 @@
     }
   },
   "dependencies": {
+    "etch": "^0.14.0",
     "event-kit": "^2.5.0"
   }
 }
