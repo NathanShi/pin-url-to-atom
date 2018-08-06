@@ -22,6 +22,4 @@ Go to package manage view to edit configurations.
 ## Next steps
 
 ### v0.6.0
-- Add easy configurations.
-  - wrap each url with label and color into object;
-  - allow put less colors for alignment;
+- Add icons selection feature
