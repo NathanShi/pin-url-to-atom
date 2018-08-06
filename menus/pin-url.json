@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Pin-Urls",
-        "command": "pin-url:showConfig"
+        "label": "Edit",
+        "command": "pin-url:editConfig"
       }
     ]
   },
@@ -15,8 +15,8 @@
           "label": "pin-url",
           "submenu": [
             {
-              "label": "show configuration",
-              "command": "pin-url:showConfig"
+              "label": "edit configuration",
+              "command": "pin-url:editConfig"
             }
           ]
         }

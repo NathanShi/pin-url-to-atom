@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "cmd-ctrl-alt-p": "pin-url:showConfig"
+    "cmd-ctrl-alt-p": "pin-url:editConfig"
   }
 }

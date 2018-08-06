@@ -5,7 +5,7 @@
 @import "ui-variables";
 
 .pin-url {
-  .pin-url-item{
+  .item{
 		display: inline-block;
 		text-align: center;
 		margin-left: 3px;
@@ -13,7 +13,7 @@
 		padding-right: 3px;
   	max-width: 100%;
 	}
-	.pin-url-item:hover {
+	.item:hover {
     color: white !important;
 		background-color: #3B5998;
 	}
@@ -27,4 +27,49 @@ img {
 
 img:hover{
   transform: scale(1.3);
+}
+
+.edit-panel {
+  overflow: auto;
+}
+
+.edit-panel > h1{
+  margin-left: 20px;
+}
+
+.edit-add {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+}
+
+.remove {
+  margin-left: @component-padding;
+}
+
+.remove:hover, .edit-add:hover, .drag-wrapper:hover {
+  color: @text-color-selected
+}
+
+.block {
+  margin-bottom: 0px !important;
+  display: flex;
+  align-items: center;
+
+  > input[type="text"] {
+    width: auto;
+  }
+}
+
+.label {
+  flex-grow: 1;
+}
+
+.link {
+  flex-grow: 6;
+}
+
+.drag-wrapper:hover {
+  cursor: -webkit-grab;
 }
